@@ -1,0 +1,15 @@
+/Users/quanghoatrinh/Documents/Aptech/SEM2/T2210A_CSharp/T2210A_CSharp/bin/Debug/net7.0/T2210A_CSharp
+/Users/quanghoatrinh/Documents/Aptech/SEM2/T2210A_CSharp/T2210A_CSharp/bin/Debug/net7.0/T2210A_CSharp.deps.json
+/Users/quanghoatrinh/Documents/Aptech/SEM2/T2210A_CSharp/T2210A_CSharp/bin/Debug/net7.0/T2210A_CSharp.runtimeconfig.json
+/Users/quanghoatrinh/Documents/Aptech/SEM2/T2210A_CSharp/T2210A_CSharp/bin/Debug/net7.0/T2210A_CSharp.dll
+/Users/quanghoatrinh/Documents/Aptech/SEM2/T2210A_CSharp/T2210A_CSharp/bin/Debug/net7.0/T2210A_CSharp.pdb
+/Users/quanghoatrinh/Documents/Aptech/SEM2/T2210A_CSharp/T2210A_CSharp/obj/Debug/net7.0/T2210A_CSharp.csproj.AssemblyReference.cache
+/Users/quanghoatrinh/Documents/Aptech/SEM2/T2210A_CSharp/T2210A_CSharp/obj/Debug/net7.0/T2210A_CSharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/quanghoatrinh/Documents/Aptech/SEM2/T2210A_CSharp/T2210A_CSharp/obj/Debug/net7.0/T2210A_CSharp.AssemblyInfoInputs.cache
+/Users/quanghoatrinh/Documents/Aptech/SEM2/T2210A_CSharp/T2210A_CSharp/obj/Debug/net7.0/T2210A_CSharp.AssemblyInfo.cs
+/Users/quanghoatrinh/Documents/Aptech/SEM2/T2210A_CSharp/T2210A_CSharp/obj/Debug/net7.0/T2210A_CSharp.csproj.CoreCompileInputs.cache
+/Users/quanghoatrinh/Documents/Aptech/SEM2/T2210A_CSharp/T2210A_CSharp/obj/Debug/net7.0/T2210A_CSharp.dll
+/Users/quanghoatrinh/Documents/Aptech/SEM2/T2210A_CSharp/T2210A_CSharp/obj/Debug/net7.0/refint/T2210A_CSharp.dll
+/Users/quanghoatrinh/Documents/Aptech/SEM2/T2210A_CSharp/T2210A_CSharp/obj/Debug/net7.0/T2210A_CSharp.pdb
+/Users/quanghoatrinh/Documents/Aptech/SEM2/T2210A_CSharp/T2210A_CSharp/obj/Debug/net7.0/T2210A_CSharp.genruntimeconfig.cache
+/Users/quanghoatrinh/Documents/Aptech/SEM2/T2210A_CSharp/T2210A_CSharp/obj/Debug/net7.0/ref/T2210A_CSharp.dll
