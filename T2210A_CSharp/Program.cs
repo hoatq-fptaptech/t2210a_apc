@@ -2,10 +2,98 @@
 using System.Collections.Generic;
 using T2210A_CSharp.demo3;
 using T2210A_CSharp.demo4;
+using T2210A_CSharp.demo5;
 public class Program
 {
-
     public static void Main(string[] args)
+    {
+        DemoNumber n = new DemoNumber(){ X = 0, Y = 0 };
+
+        // Thread 1
+        new Thread(delegate () {
+            for(int i = 0; i < 20; i++)
+            {
+                lock (n)
+                {
+                    n.ChangeData();
+                    n.PrintData();
+                }
+               
+                try
+                {
+                    Thread.Sleep(1000);
+                }
+                catch (Exception e) { }
+            }
+        }).Start();
+
+        // Thread 2
+        new Thread(delegate () {
+            for (int i = 0; i < 20; i++)
+            {
+                lock (n)
+                {
+                    n.ChangeData();
+                    n.PrintData();
+                }
+                 try
+                    {
+                        Thread.Sleep(1000);
+                    }
+                    catch (Exception e) { }
+            }
+        }).Start();
+
+    }
+
+    public static void Main7(string[] args)
+    {
+        Thread t = new Thread(RunThread);
+      
+        t.Start("Sub T");
+
+        Thread t2 = new Thread(
+            delegate ()
+            {
+                for (int i = 0; i < 40; i++)
+                {
+                    Console.WriteLine("Sub T2 i = " + i);
+                    try
+                    {
+                        Thread.Sleep(1000);
+                    }
+                    catch (Exception e) { }
+                }
+            }
+        );
+        t2.IsBackground = true;
+        t2.Start();
+
+        for (int i = 0; i < 20; i++)
+        {
+            Console.WriteLine("Main i = " + i);
+            try
+            {
+                Thread.Sleep(1000);
+            }
+            catch (Exception e) { }
+        }
+    }
+
+    private static void RunThread(object o)
+    {
+        string s = o as string;
+        for(int i = 0; i < 20; i++)
+        {
+            Console.WriteLine(s+": " + i);
+            try
+            {
+                Thread.Sleep(1000);
+            }catch(Exception e){ }
+        }
+    }
+
+    public static void Main6(string[] args)
     {
         try
         {

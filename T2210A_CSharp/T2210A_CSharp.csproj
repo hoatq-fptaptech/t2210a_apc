@@ -12,11 +12,13 @@
     <None Remove="demo2\" />
     <None Remove="demo3\" />
     <None Remove="demo4\" />
+    <None Remove="demo5\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="demo1\" />
     <Folder Include="demo2\" />
     <Folder Include="demo3\" />
     <Folder Include="demo4\" />
+    <Folder Include="demo5\" />
   </ItemGroup>
 </Project>
